@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: vote-service
 spec:
-  type: LoadBalancer
+  type: NodePort
   selector:
     name: vote-pod
     app: voting-app
